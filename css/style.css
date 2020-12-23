@@ -1,0 +1,95 @@
+#heading{
+    margin: 0%;
+    background-color:rgb(0,255,85);
+   text-align: center;
+    color: red;
+    font-size: 100px;
+    font-weight: bolder;
+    text-shadow: 3px 12px 8px blue;
+}
+body{
+    height: 100%;
+    width: 99.3%;
+}
+#p1{
+    font-size: 40px;
+    font-weight: 1000;
+    text-align: center;
+    color: black
+
+}
+#p2{
+    font-size: 60px;
+    margin: 0%;
+    font-weight: 400;
+    color: red;
+    font-style: italic;
+    text-align: center;
+}
+#border1{
+    
+    text-transform: uppercase;
+    text-indent: 30px;
+    word-spacing: 30px;
+    font-weight: bolder;
+    font-style: normal;
+    border-style: solid;
+    background-color: seashell;
+    padding: 10px;
+    border-width: 0px 
+}
+#border2{
+    height: 600px;
+    border-style: solid solid none solid;
+    border-color:green;
+    border-width: 15px 5px;
+    background-image: url("images/shop4.jpg");
+   background-repeat: no-repeat; 
+   background-size: 1500px 600px;
+}
+#l1:link{
+    color: yellowgreen;
+}
+#l1:visited{
+    color: black;
+}
+#l1:hover{
+    color: brown;
+}
+#l1:active{
+    color: black;
+}
+#amir{
+    border: solid;
+    margin-left: 700px;
+    margin-right: 700px;
+    background-color:yellowgreen;
+    color: black;
+}
+.amar{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+#border3{
+    border-style: solid;
+    height: 200px;
+    border-color: none;
+   /* background-color: #575553;*/
+   background-color: rgb(195, 224, 151);
+   font-weight: bolder;
+   text-indent: 30px;
+   padding: 10px;
+
+}
+#cont li{
+    list-style: none;
+    float: left;
+    width: 300px;
+    margin-top: 50px;
+}

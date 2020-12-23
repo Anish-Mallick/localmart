@@ -1,0 +1,76 @@
+.py-3 { padding: 3rem 10rem; }
+
+/* Contact Form */
+#contact-form h1{
+    padding-top: 20px;
+}
+
+#contact-form button{
+    margin-bottom: 20px;
+}
+
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    
+}
+
+
+
+
+
+select{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+    border-color: var(--primary-color);
+}
+#contact-form input,
+#contact-form textarea{
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+#contact-form span{
+	color: red;
+}
+
+#contact-form .order-btn {
+    border: 1px solid #0e4f1f;
+    background: #0e4f1f;
+    text-decoration: none;
+    color: white;
+    font: inherit;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  #contact-form .order-btn:hover,
+  #contact-form .order-btn:active {
+    background: #2ddf5c;
+    border-color: #2ddf5c;
+  }
+  
+  #contact-form .order-reset-btn {
+    background: red;
+    border-color: red;
+  }
+  
+  #contact-form .order-reset-btn:hover,
+  #contact-form .order-reset-btn:active {
+    background: #ff5454;
+    border-color: #ff5454;
+  }

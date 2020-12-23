@@ -1,0 +1,70 @@
+#container{
+    background: var(--medium-gray);
+    padding: 0.8rem 0;
+    
+}
+
+
+
+/* ShowCase */
+#showcase{
+    color: #fff;
+    background: #333;
+    padding: 2rem;
+    position: relative;
+    
+}
+
+#showcase:before{
+    content: '';
+    background: url('../image/slider-image/localmart2.png') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+#showcase .showcase-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+
+#showcase .showcase-content{
+    z-index: 1;
+}
+
+ #showcase .showcase-heading {
+    font-family: cursive;
+    margin-bottom: .55rem;
+    line-height: 1.3;
+    
+}
+
+#showcase .showcase-content p{
+    margin-bottom: 1rem;
+}
+
+#showcase .banner-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1rem;
+}
+
+#showcase ul{
+    list-style: none;
+    
+}
+
+#showcase ul li{
+    padding: 0.5rem;
+}
+
+#showcase ul li a{
+    font-weight: bold;
+    font-size: x-large;
+}

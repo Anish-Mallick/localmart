@@ -1,0 +1,49 @@
+#category {
+    background: var(--medium-gray);
+    
+}
+
+.category-main-container{
+    padding: 10px;
+    background: var(--light-gray);
+}
+#category .category-container{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 20px;
+}
+
+#category .category-container .card{
+    height: 450px;
+    background: #fff;
+}
+
+#category .category-container .card .price-tag{
+	text-align: center;
+	font-weight:bold;
+}
+
+.product-image{
+    width: 100%;
+    
+}
+
+.modal__details {
+    text-align: center;
+  }
+  
+  .modal__detail {
+    border: 1px solid red;
+    background: red;
+    text-decoration: none;
+    color: white;
+    font: inherit;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  
+  .modal__detail:hover {
+    background: #ff5454;
+    border-color: #ff5454;
+  }
